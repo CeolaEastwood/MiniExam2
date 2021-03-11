@@ -4,7 +4,9 @@ class MainClass {
 
 public static double CylinderVolume(double rad, double htlog)
   {  
-    double CylinderVolume = 3.14*rad*rad*htlog;
+    double CylinderVolume = 0;
+
+    CylinderVolume = 3.14*rad*rad*htlog;
     
     return CylinderVolume;
    
